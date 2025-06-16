@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reconhecimento Facial</title>
+  <style>
+    #video, #canvas {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    #results {
+      position: absolute;
+      top: 10px;
+      left: 650px;
+      background: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <video id="video" width="640" height="480" autoplay muted></video>
+  <canvas id="canvas" width="640" height="480"></canvas>
+  <div id="results">Carregando...</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

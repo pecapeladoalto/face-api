@@ -1,0 +1,27 @@
+{
+  "name": "face-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecapeladoalto/face-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pecapeladoalto/face-api/issues"
+  },
+  "homepage": "https://github.com/pecapeladoalto/face-api#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "canvas": "^3.1.0",
+    "face-api.js": "^0.22.2",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
